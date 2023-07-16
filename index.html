@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Shad Designer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="assets/images/logo white.png">
+  <style>
+    @font-face {
+      font-family: rabar;
+      src: url(assets/font/Rabar_021.ttf);
+    }
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a,
+    p {
+      font-family: rabar;
+    }
+
+    .imgg {
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+  </style>
+</head>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+    <div class="w3-container">
+      <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+        title="close menu">
+        <i class="fa fa-remove"></i>
+      </a>
+      <!-- pofile -->
+      <img src="wena.jpg" style="width:45%;" class="w3-round"> <br><br>
+      <h4><b>Shad Bashir aziz </b></h4>
+      <p class="w3-text-grey">Graphic designer</p>
+    </div>
+    <div class="w3-bar-block">
+      <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
+          class="fa fa-th-large fa-fw w3-margin-right"></i>HOME</a>
+      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+          class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+          class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+      <br><br>
+      <a href="https://www.facebook.com/charanwsy.rash" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+          class="fa fa-facebook-official fa-fw w3-margin-right"></i>FACEBOOK</a>
+      <a href="https://instagram.com/sh4d_design" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+          class="fa fa-instagram fa-fw w3-margin-right"></i>INSTAGRAM</a>
+      <a href="https://t.m/Shad_zand" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+          class="fa fa-telegram fa-fw w3-margin-right"></i>TELEGRAM</a>
+    </div>
+
+    <!-- <i class="fa fa-snapchat w3-hover-opacity imgg"> </i>
+    <i class="fa fa-pinterest-p w3-hover-opacity imgg"></i>
+    <i class="fa fa-twitter w3-hover-opacity imgg"></i>
+    <i class="fa fa-linkedin w3-hover-opacity imgg"></i> -->
+
+    </div>
+
+  </nav>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+    title="close side menu" id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:300px">
+
+    <!-- Header -->
+    <header id="portfolio">
+      <a href="index.html"><img src="assets/images/logo.png" style="width:40px;"
+          class=" w3-right w3-margin w3-hide-large w3-hover-opacity imgg"></a>
+      <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+          class="fa fa-bars"></i></span>
+      <div class="w3-container">
+        <h1><b>My Works</b></h1>
+      </div>
+    </header>
+
+    <!-- First 1/3 Photo  Grid-->
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="assets/designs/1.png" alt="Norway" style="width:100%" class="w3-hover-opacity imgg">
+        <div class="w3-container w3-white">
+          <p><b>دیزانی سۆشیاڵ میدیا</b></p>
+          <p>لە بوارەکانی پزیشکی ددان</p>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="assets/designs/2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity imgg">
+        <div class="w3-container w3-white">
+          <p><b>دیزانی سۆشیاڵ میدیا</b></p>
+          <p>لە بوارەکانی پزیشکی ددان</p>
+        </div>
+      </div>
+      <!-- second Photo Grid-->
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="assets/designs/3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity imgg">
+        <div class="w3-container w3-white">
+          <p><b>دیزانی سۆشیاڵ میدیا </b></p>
+          <p> لە بوارەکانی پزیشکی ددان</p>
+        </div>
+        <!-- THIRD Photo Grid-->
+      </div>
+    </div>
+
+    <!-- Second 3/6 Photo Grid-->
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container">
+        <img src="assets/designs/4.png" alt="Norway" style="width:100%" class="w3-hover-opacity imgg">
+        <div class="w3-container w3-white">
+          <p><b>دیزانی سۆشیاڵ میدیا </b></p>
+          <p>لە بوارەکانی پزیشکی ددان</p>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="assets/designs/5.png" alt="Norway" style="width:100%"
+          class="w3-hover-opacity imgg">
+        <div class="w3-container w3-white">
+          <p><b>دیزانی سۆشیاڵ میدیا </b></p>
+          <p>بۆ بوارەکانی (خوێندنگا و پەیمانگاکان)</p>
+        </div>
+      </div>
+
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="assets/designs/6.png" alt="Norway" style="width:100%" class="w3-hover-opacity imgg">
+        <div class="w3-container w3-white">
+          <p><b>دیزانی سۆشیاڵ میدیا </b></p>
+          <p>بۆ بوارەکانی (خوێندنگا و پەیمانگاکان)</p>
+        </div>
+      </div>
+    </div>
+      <!-- 6/9 -->
+      <div class="w3-row-padding">
+        <div class="w3-third w3-container">
+          <img src="assets/designs/7.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity imgg">
+          <div class="w3-container w3-white">
+            <p><b>دیزانی سۆشیاڵ میدیا </b></p>
+            <p>لە بوارەکانی پزیشکی ددان</p>
+          </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img src="assets/designs/8.jpg" alt="Norway" style="width:100%"
+            class="w3-hover-opacity imgg">
+          <div class="w3-container w3-white">
+            <p><b>دیزانی سۆشیاڵ میدیا </b></p>
+            <p>بۆ بوارەکانی (خوێندنگا و پەیمانگاکان)</p>
+          </div>
+        </div>
+  
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img src="assets/designs/9.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity imgg">
+          <div class="w3-container w3-white">
+            <p><b>دیزانی سۆشیاڵ میدیا </b></p>
+            <p>بۆ بوارەکانی (خوێندنگا و پەیمانگاکان)</p>
+          </div>
+        </div>
+      </div>
+      <!-- navbar down -->
+      <div class="w3-center w3-padding-32">
+        <div class="w3-bar">
+          <a href="index.html" class="w3-bar-item w3-black w3-button">1</a>
+          <a href="index2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+          <a href="index3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+          <a href="index4.html" class="w3-bar-item w3-button w3-hover-black">4</a>
+          <a href="index2.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+        </div>
+      </div>
+
+      <!-- Images of Me -->
+      <div class="w3-row-padding w3-padding-16" id="about">
+        <div class="w3-col m6">
+          <!-- <img src=".jpg" alt="Me" style="width:100%"> -->
+        </div>
+        <div class="w3-col m6">
+          <!-- <img src="/w3images/me2.jpg" alt="Me" style="width:100%"> -->
+        </div>
+      </div>
+
+      <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+        <h1><b>About</b></h1>
+        <h5>My name is Shad, and I like graphic design.
+          I am also a student of Qaywan University in IT department.
+          and I speak Kurdish and English.</h5>
+
+        <hr style="  border: 1px solid rgba(0, 0, 0, 0.05);">
+        <h1><b>Technical Skills</b></h1>
+        <!-- Progress bars / Skills -->
+        <h5>Adobe Photoshop</h5>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+        </div>
+        <h5> Adobe premiere</h5>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:60%">60%</div>
+        </div>
+
+        <h5> Social Media Manager</h5>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+        </div>
+
+        <h5>Photography</h5>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:70%">70%</div>
+        </div>
+
+        <hr>
+        <h1><b>Languages</b></h1>
+
+        <h5>Kurdish</h5>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:100%">100%</div>
+        </div>
+        <h5>English</h5>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:60%">60%</div>
+        </div>
+        <!-- 
+    <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+        <i class="fa fa-download w3-margin-right"></i>Download Resume
+      </button>
+    </p> -->
+        <hr>
+        <!-- Contact Section  -->
+        <div class="w3-container w3-padding-large w3-grey">
+          <h1 id="contact"><b>Contact Me</b></h1>
+          <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+            <div class="w3-third w3-dark-grey">
+              <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+              <a href="mailto:shad.bashiir@gmail.com">shad.bashiir@gmail.com</a>
+            </div>
+            <div class="w3-third w3-teal">
+              <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+              <a>Sulaymaniyah</a>
+            </div>
+            <div class="w3-third w3-dark-grey">
+              <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+              <a href="tel:+9647737271556">+964 773 727 1556</a>
+            </div>
+          </div>
+          <hr class="w3-opacity">
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-section">
+              <h5>Name</h5>
+              <input class="w3-input w3-border" type="text" name="Name" required>
+            </div>
+            <div class="w3-section">
+              <h5>Email</h5>
+              <input class="w3-input w3-border" type="text" name="Email" required>
+            </div>
+            <div class="w3-section">
+              <h5>Message</h5>
+              <input class="w3-input w3-border" type="text" name="Message" required>
+            </div>
+            <button type="submit" class="w3-button w3-black w3-margin-bottom"><i
+                class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+          </form>
+        </div>
+
+        <!-- Footer -->
+        <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://instagram.com/sh4d_design"
+            title="W3.CSS" target="_blank" class="w3-hover-opacity imgg">Shad Designer</a></div>
+
+        <!-- End page content -->
+      </div>
+      <!-- Footer -->
+      <script>
+        // Script to open and close sidebar
+        function w3_open() {
+          document.getElementById("mySidebar").style.display = "block";
+          document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+          document.getElementById("mySidebar").style.display = "none";
+          document.getElementById("myOverlay").style.display = "none";
+        }
+      </script>
+
+</body>
+
+</html>
